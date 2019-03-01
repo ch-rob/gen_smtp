@@ -33,8 +33,8 @@
 -include_lib("eunit/include/eunit.hrl").
 -endif.
 
--define(MAXIMUMSIZE, 52428800). %50mb
--define(BUILTIN_EXTENSIONS, [{"SIZE", "52428800"}, {"8BITMIME", true}, {"PIPELINING", true}]).
+-define(MAXIMUMSIZE, 78642525). %75mb
+-define(BUILTIN_EXTENSIONS, [{"SIZE", "78642525"}, {"8BITMIME", true}, {"PIPELINING", true}]).
 -define(TIMEOUT, 180000). % 3 minutes
 
 %% External API
